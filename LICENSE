@@ -1,0 +1,45 @@
+Battery Stats - Copyright and Usage Terms
+
+Copyright (c) 2026 Yash. All rights reserved.
+
+1. Ownership
+   The source code, user interface design, artwork, animations, screenshots,
+   documentation and branding in this repository ("the Work") are the exclusive
+   property of Yash. No license is granted except as stated below.
+
+2. What you may do
+   a. View and read the source code on GitHub.
+   b. Fork the repository on GitHub, solely as permitted by the GitHub Terms of
+      Service.
+   c. Build the app from source for your own personal, non-commercial use and
+      evaluation on your own devices.
+   d. Report issues and propose changes through this repository. By submitting a
+      contribution you confirm you have the right to do so and you grant Yash a
+      perpetual, worldwide, royalty-free license to use it in the Work.
+
+3. What you may not do
+   a. Copy, reproduce or reuse the code, design, artwork or documentation, in
+      whole or in part, in any other project or product.
+   b. Publish, distribute, sell or host the app, or any modified or unmodified
+      build of it, on any app store, website or file-sharing service.
+   c. Rebrand, rename or present the Work, or a derivative of it, as your own.
+   d. Remove or alter copyright notices, or use the name "Battery Stats",
+      "Battery Stats" or the logo to identify another product.
+   e. Use the Work to train or fine-tune machine-learning models.
+
+4. Third-party components
+   The app depends on third-party libraries that keep their own licenses. These
+   terms do not change or replace those licenses. See NOTICE.md.
+
+5. Enforcement
+   Unauthorized use may result in takedown requests (including under the DMCA)
+   and legal action.
+
+6. No warranty
+   The Work is provided "as is", without warranty of any kind. To the maximum
+   extent permitted by law, Yash is not liable for any damages arising from its
+   use. Battery figures shown by the app are estimates based on values reported
+   by the device.
+
+To request permission for any use not listed in section 2, contact
+yash92726@gmail.com before using the Work.

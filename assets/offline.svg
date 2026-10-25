@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Works in airplane mode. No internet permission.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0E12"/><stop offset="1" stop-color="#0E1822"/></linearGradient>
+<linearGradient id="ttl" x1="-1" y1="0" x2="0" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#39FF88"/><stop offset="0.5" stop-color="#fff"/><stop offset="1" stop-color="#5B8DEF"/><animate attributeName="x1" values="-1;1" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="5s" repeatCount="indefinite"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#22303C" stroke-opacity="0.45"/></pattern>
+<clipPath id="card"><rect width="1200" height="380" rx="22"/></clipPath>
+<filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="380" fill="url(#bg)"/><rect width="1200" height="380" fill="url(#grid)"/>
+<g>
+<line x1="0" y1="62" x2="1200" y2="62" stroke="#5B8DEF" stroke-opacity="0.35" stroke-dasharray="4 10"/>
+<g><animateTransform attributeName="transform" type="translate" values="-120 0;1300 0" dur="9s" repeatCount="indefinite"/>
+<g transform="translate(0 62)" filter="url(#glow)"><path d="M0 0 L-6 -3 L-30 -22 L-24 -22 L-4 -9 L12 -9 L16 -14 L20 -14 L18 -6 L26 -4 L26 4 L18 6 L20 14 L16 14 L12 9 L-4 9 L-24 22 L-30 22 L-6 3 Z" fill="#5B8DEF" transform="scale(1.3)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="1.6s" repeatCount="indefinite" additive="sum"/></path></g></g>
+</g>
+<g>
+<circle cx="230" cy="215" r="60" fill="none" stroke="#39FF88" stroke-width="3" opacity="0"><animate attributeName="r" values="60;150" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="230" cy="215" r="60" fill="none" stroke="#39FF88" stroke-width="3" opacity="0"><animate attributeName="r" values="60;150" dur="3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="230" cy="215" r="92" fill="#0E1822" stroke="#39FF88" stroke-opacity="0.5" stroke-width="2"/>
+<path d="M213.0 205.0 A24 24 0 0 1 247.0 205.0" fill="none" stroke="#8CA0B3" stroke-width="9" stroke-linecap="round"/><path d="M198.9 190.9 A44 44 0 0 1 261.1 190.9" fill="none" stroke="#8CA0B3" stroke-width="9" stroke-linecap="round"/><path d="M184.7 176.7 A64 64 0 0 1 275.3 176.7" fill="none" stroke="#8CA0B3" stroke-width="9" stroke-linecap="round"/>
+<circle cx="230" cy="222" r="8" fill="#8CA0B3"/>
+<line x1="170" y1="160" x2="290" y2="270" stroke="#FF6B4A" stroke-width="10" stroke-linecap="round" stroke-dasharray="170" stroke-dashoffset="170" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="170;0;0;170" keyTimes="0;0.2;0.9;1" dur="5s" repeatCount="indefinite"/></line>
+</g>
+<text x="430" y="160" font-family="'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif" font-weight="800" font-size="58" fill="url(#ttl)" filter="url(#glow)">Works in airplane mode.</text>
+<text x="430" y="210" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="21" fill="#8CA0B3">Nothing to send. Nowhere to send it.</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.000;0.067;0.92;1" dur="9s" repeatCount="indefinite"/>
+<rect x="430" y="270" width="273" height="46" rx="23" fill="#39FF88" fill-opacity="0.10" stroke="#39FF88" stroke-opacity="0.7" stroke-width="1.5"/>
+<path d="M450 293 l7 7 l13 -14" fill="none" stroke="#39FF88" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="482" y="299" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#E8F5EE">NO INTERNET PERMISSION</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.133;0.200;0.92;1" dur="9s" repeatCount="indefinite"/>
+<rect x="719.2" y="270" width="168" height="46" rx="23" fill="#39FF88" fill-opacity="0.10" stroke="#39FF88" stroke-opacity="0.7" stroke-width="1.5"/>
+<path d="M739.2 293 l7 7 l13 -14" fill="none" stroke="#39FF88" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="771.2" y="299" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#E8F5EE">NO TRACKERS</text></g><g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.267;0.333;0.92;1" dur="9s" repeatCount="indefinite"/>
+<rect x="902.8000000000001" y="270" width="254" height="46" rx="23" fill="#39FF88" fill-opacity="0.10" stroke="#39FF88" stroke-opacity="0.7" stroke-width="1.5"/>
+<path d="M922.8000000000001 293 l7 7 l13 -14" fill="none" stroke="#39FF88" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="954.8000000000001" y="299" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#E8F5EE">DATA STAYS ON DEVICE</text></g>
+</g>
+<rect x="1" y="1" width="1198" height="378" rx="22" fill="none" stroke="#39FF88" stroke-opacity="0.35" stroke-width="2"/>
+</svg>

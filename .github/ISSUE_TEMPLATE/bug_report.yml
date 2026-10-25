@@ -1,0 +1,40 @@
+name: Bug report
+description: Something is wrong or not working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open Live Monitor\n2. Plug in the charger\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App version
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone model and Android version
+      placeholder: "Pixel 8, Android 15"
+    validations:
+      required: true
+  - type: input
+    id: charger
+    attributes:
+      label: Charger and cable (for charging-number issues)
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots or logs
